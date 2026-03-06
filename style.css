@@ -1,22 +1,18 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #121212;
-    color: white
+    background-color: #000000;   /* pure black */
+    color: #ffffff;              /* white text */
 }
 
-h1,h2,h3 {
+h1, h2, h3 {
     color: #ffffff;
 }
 
-h2 {
-    margin-top: 40px;
-}
-
 a {
-    color: #4da3ff;
+    color: #66b3ff;
 }
 
 a:hover {
-    color: #82c4ff;
+    color: #99ccff;
 }
