@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Comic/Anime ID Pipeline using Vision-Language for Autolabelling</title>
+    <title>Comic/Anime ID Pipeline using Vision-Language Model for Autolabelling</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Comic/Anime Character Identification Pipeline using Vision-Language for Autolabelling Dataset</h1>
     <p style="text-align:center;">
-        <img src="images/Confusion Matrix.jpg" width="600">
+        <img src="images/Confusion Matrix.jpg" height="1000" width="1000">
     </p>
   
     <p>
@@ -15,9 +15,9 @@
     </p>
 
     <p>
-        <strong>Description:</strong> Created a custom dataset by scraping the internet for specific characters and used a Vision-Language Model (CLIP- Contrastive Language-Image Pretraining) to auto-label the dataset.
-        Reduced the manual effort fo creating a dataset by ~90%. Images were downloaded and categorically put in respective class folders automatically, following the ImageFolder dataset structure. This dataset was
-        used for training ResNet18 to create an identification Neural Network model. To illustrate the efficiency of automating much of the dataset creation process 16 classes were chosen,, each having a max of 200 images.
+        <strong>Description:</strong> Created a custom dataset by scraping the internet for specific characters and used a Vision-Language Model (CLIP- Contrastive Language-Image Pretraining by OpenAI) to auto-label the dataset.
+        Reduced the manual effort of creating a dataset by ~90%. Images were downloaded and categorically put in respective class folders automatically, following the ImageFolder dataset structure. This dataset was
+        used for training ResNet18 to create an identification Neural Network model. To illustrate the efficiency of automating much of the dataset creation process 16 classes were chosen, each having a max of 200 images.
         So a relatively small dataset was created using CLIP for autolabelling and yet the final trained NN achieved an accuracy of ~80%.<br><br>
         Code used can be modified to create ANY custom image dataset for fast deployment in scenarios where character/object classification is required.
     
